@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CustomTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CustomTabBarAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		337CE985145F715B0082CE31 /* TabBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 337CE984145F715B0082CE31 /* TabBack.png */; };
+		337CE988145F720D0082CE31 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337CE987145F720D0082CE31 /* ThirdView.xib */; };
+		33FFCB62145F6BB700C86B35 /* CarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FFCB60145F6BB700C86B35 /* CarCell.m */; };
+		33FFCB63145F6BB700C86B35 /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33FFCB61145F6BB700C86B35 /* CarCell.xib */; };
+		33FFCB65145F6C7300C86B35 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33FFCB64145F6C7300C86B35 /* FirstView.xib */; };
+		4522730E14639ADF0018184D /* dodgeicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4522730D14639ADF0018184D /* dodgeicon.jpg */; };
+		457129271467939600FC5101 /* quartz.m in Sources */ = {isa = PBXBuildFile; fileRef = 457129261467939600FC5101 /* quartz.m */; };
+		45847B961460F71200BA2F43 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45847B941460F71200BA2F43 /* SecondViewController.m */; };
+		45847B9D1460F73000BA2F43 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45847B9B1460F73000BA2F43 /* ThirdViewController.m */; };
+		45847BCD1461362200BA2F43 /* background2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45847BC91461362200BA2F43 /* background2.jpeg */; };
+		45847BCF1461362200BA2F43 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847BCB1461362200BA2F43 /* background1.jpg */; };
+		45847BEA14613AD000BA2F43 /* Sonic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847BE414613AD000BA2F43 /* Sonic2.jpg */; };
+		45847BEB14613AD000BA2F43 /* Sonic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847BE514613AD000BA2F43 /* Sonic3.jpg */; };
+		45847BEC14613AD000BA2F43 /* Sonic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847BE614613AD000BA2F43 /* Sonic4.jpg */; };
+		45847BED14613AD000BA2F43 /* Sonic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847BE714613AD000BA2F43 /* Sonic5.jpg */; };
+		45847BEF14613AD000BA2F43 /* Sonic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847BE914613AD000BA2F43 /* Sonic1.jpg */; };
+		45847C1E1461424700BA2F43 /* taurus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C1A1461424700BA2F43 /* taurus2.jpg */; };
+		45847C1F1461424700BA2F43 /* taurus4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C1B1461424700BA2F43 /* taurus4.jpg */; };
+		45847C201461424700BA2F43 /* taurus1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C1C1461424700BA2F43 /* taurus1.jpg */; };
+		45847C211461424700BA2F43 /* taurus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C1D1461424700BA2F43 /* taurus3.jpg */; };
+		45847C2E1461427D00BA2F43 /* mustang2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C2A1461427D00BA2F43 /* mustang2.jpg */; };
+		45847C2F1461427D00BA2F43 /* mustang1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C2B1461427D00BA2F43 /* mustang1.jpg */; };
+		45847C301461427D00BA2F43 /* mustang3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C2C1461427D00BA2F43 /* mustang3.jpg */; };
+		45847C311461427D00BA2F43 /* mustang4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C2D1461427D00BA2F43 /* mustang4.jpg */; };
+		45847C37146142B800BA2F43 /* focus1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C34146142B800BA2F43 /* focus1.jpg */; };
+		45847C38146142B800BA2F43 /* focus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C35146142B800BA2F43 /* focus2.jpg */; };
+		45847C39146142B800BA2F43 /* focus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C36146142B800BA2F43 /* focus3.jpg */; };
+		45847C3F146142CE00BA2F43 /* fusion4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C3A146142CE00BA2F43 /* fusion4.jpg */; };
+		45847C41146142CE00BA2F43 /* fusion3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C3C146142CE00BA2F43 /* fusion3.jpg */; };
+		45847C42146142CE00BA2F43 /* fusion2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C3D146142CE00BA2F43 /* fusion2.jpg */; };
+		45847C43146142CE00BA2F43 /* fusion1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C3E146142CE00BA2F43 /* fusion1.jpg */; };
+		45847C48146142E000BA2F43 /* fiesta1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C44146142E000BA2F43 /* fiesta1.jpg */; };
+		45847C49146142E000BA2F43 /* fiesta2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C45146142E000BA2F43 /* fiesta2.jpg */; };
+		45847C4A146142E000BA2F43 /* fiesta3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45847C46146142E000BA2F43 /* fiesta3.jpg */; };
+		4591150C146376A200A68F62 /* background5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4591150B146376A200A68F62 /* background5.jpg */; };
+		4591153B146379CD00A68F62 /* models.png in Resources */ = {isa = PBXBuildFile; fileRef = 4591153A146379CD00A68F62 /* models.png */; };
+		4591154814637AF000A68F62 /* questionmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4591154614637AF000A68F62 /* questionmark.png */; };
+		4591154914637AF000A68F62 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 4591154714637AF000A68F62 /* book.png */; };
+		4591156014637ECF00A68F62 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4591155E14637ECF00A68F62 /* back.png */; };
+		4591156114637ECF00A68F62 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 4591155F14637ECF00A68F62 /* next.png */; };
+		4591156714637F7800A68F62 /* background7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4591156614637F7800A68F62 /* background7.jpg */; };
+		4591156914637FE800A68F62 /* background8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4591156814637FE800A68F62 /* background8.jpg */; };
+		4591160A14638E6400A68F62 /* chevroleticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4591160714638E6400A68F62 /* chevroleticon.png */; };
+		4591160C14638E6400A68F62 /* fordicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4591160914638E6400A68F62 /* fordicon.png */; };
+		4596E4321467C7CC0011C752 /* challenger1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E42F1467C7CC0011C752 /* challenger1.jpg */; };
+		4596E4331467C7CC0011C752 /* challenger2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4301467C7CC0011C752 /* challenger2.jpg */; };
+		4596E4341467C7CC0011C752 /* challenger3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4311467C7CC0011C752 /* challenger3.jpg */; };
+		4596E4391467C8130011C752 /* corvette3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4351467C8130011C752 /* corvette3.jpg */; };
+		4596E43B1467C8130011C752 /* corvette1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4371467C8130011C752 /* corvette1.jpg */; };
+		4596E43C1467C8130011C752 /* corvette2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4381467C8130011C752 /* corvette2.jpg */; };
+		4596E4471467C8690011C752 /* camaro4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4401467C8690011C752 /* camaro4.jpg */; };
+		4596E4481467C8690011C752 /* camaro3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4411467C8690011C752 /* camaro3.jpg */; };
+		4596E4491467C8690011C752 /* camaro2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4421467C8690011C752 /* camaro2.jpg */; };
+		4596E44A1467C8690011C752 /* camaro1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4431467C8690011C752 /* camaro1.jpg */; };
+		4596E44D1467C8E40011C752 /* impala1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E44B1467C8E40011C752 /* impala1.jpg */; };
+		4596E44E1467C8E40011C752 /* impala2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E44C1467C8E40011C752 /* impala2.jpg */; };
+		4596E4511467C8F40011C752 /* hhr1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E44F1467C8F40011C752 /* hhr1.jpg */; };
+		4596E4521467C8F40011C752 /* hhr2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4501467C8F40011C752 /* hhr2.jpg */; };
+		4596E45A1467C9B10011C752 /* malibu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4581467C9B10011C752 /* malibu1.jpg */; };
+		4596E45B1467C9B10011C752 /* malibu2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4591467C9B10011C752 /* malibu2.jpg */; };
+		4596E45E1467C9BC0011C752 /* volt1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E45C1467C9BC0011C752 /* volt1.jpg */; };
+		4596E45F1467C9BC0011C752 /* volt2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E45D1467C9BC0011C752 /* volt2.jpg */; };
+		4596E4621467C9C90011C752 /* cruze1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4601467C9C90011C752 /* cruze1.jpg */; };
+		4596E4631467C9C90011C752 /* cruze2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4596E4611467C9C90011C752 /* cruze2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CustomTabBarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CustomTabBarAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SecondView.xib; path = ../SecondView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* CustomTabBar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		337CE984145F715B0082CE31 /* TabBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBack.png; sourceTree = "<group>"; };
+		337CE987145F720D0082CE31 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		33FFCB5F145F6BB700C86B35 /* CarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarCell.h; sourceTree = "<group>"; };
+		33FFCB60145F6BB700C86B35 /* CarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarCell.m; sourceTree = "<group>"; };
+		33FFCB61145F6BB700C86B35 /* CarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
+		33FFCB64145F6C7300C86B35 /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstView.xib; path = ../FirstView.xib; sourceTree = "<group>"; };
+		4522730D14639ADF0018184D /* dodgeicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dodgeicon.jpg; sourceTree = "<group>"; };
+		457129251467939600FC5101 /* quartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quartz.h; sourceTree = "<group>"; };
+		457129261467939600FC5101 /* quartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quartz.m; sourceTree = "<group>"; };
+		45847B931460F71200BA2F43 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		45847B941460F71200BA2F43 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		45847B9A1460F73000BA2F43 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		45847B9B1460F73000BA2F43 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		45847BC91461362200BA2F43 /* background2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpeg; sourceTree = "<group>"; };
+		45847BCB1461362200BA2F43 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		45847BE414613AD000BA2F43 /* Sonic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonic2.jpg; sourceTree = "<group>"; };
+		45847BE514613AD000BA2F43 /* Sonic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonic3.jpg; sourceTree = "<group>"; };
+		45847BE614613AD000BA2F43 /* Sonic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonic4.jpg; sourceTree = "<group>"; };
+		45847BE714613AD000BA2F43 /* Sonic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonic5.jpg; sourceTree = "<group>"; };
+		45847BE914613AD000BA2F43 /* Sonic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonic1.jpg; sourceTree = "<group>"; };
+		45847C1A1461424700BA2F43 /* taurus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taurus2.jpg; sourceTree = "<group>"; };
+		45847C1B1461424700BA2F43 /* taurus4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taurus4.jpg; sourceTree = "<group>"; };
+		45847C1C1461424700BA2F43 /* taurus1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taurus1.jpg; sourceTree = "<group>"; };
+		45847C1D1461424700BA2F43 /* taurus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taurus3.jpg; sourceTree = "<group>"; };
+		45847C2A1461427D00BA2F43 /* mustang2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustang2.jpg; sourceTree = "<group>"; };
+		45847C2B1461427D00BA2F43 /* mustang1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustang1.jpg; sourceTree = "<group>"; };
+		45847C2C1461427D00BA2F43 /* mustang3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustang3.jpg; sourceTree = "<group>"; };
+		45847C2D1461427D00BA2F43 /* mustang4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustang4.jpg; sourceTree = "<group>"; };
+		45847C34146142B800BA2F43 /* focus1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = focus1.jpg; sourceTree = "<group>"; };
+		45847C35146142B800BA2F43 /* focus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = focus2.jpg; sourceTree = "<group>"; };
+		45847C36146142B800BA2F43 /* focus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = focus3.jpg; sourceTree = "<group>"; };
+		45847C3A146142CE00BA2F43 /* fusion4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fusion4.jpg; sourceTree = "<group>"; };
+		45847C3C146142CE00BA2F43 /* fusion3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fusion3.jpg; sourceTree = "<group>"; };
+		45847C3D146142CE00BA2F43 /* fusion2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fusion2.jpg; sourceTree = "<group>"; };
+		45847C3E146142CE00BA2F43 /* fusion1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fusion1.jpg; sourceTree = "<group>"; };
+		45847C44146142E000BA2F43 /* fiesta1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fiesta1.jpg; sourceTree = "<group>"; };
+		45847C45146142E000BA2F43 /* fiesta2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fiesta2.jpg; sourceTree = "<group>"; };
+		45847C46146142E000BA2F43 /* fiesta3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fiesta3.jpg; sourceTree = "<group>"; };
+		4591150B146376A200A68F62 /* background5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background5.jpg; sourceTree = "<group>"; };
+		4591153A146379CD00A68F62 /* models.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = models.png; sourceTree = "<group>"; };
+		4591154614637AF000A68F62 /* questionmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark.png; sourceTree = "<group>"; };
+		4591154714637AF000A68F62 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		4591155E14637ECF00A68F62 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4591155F14637ECF00A68F62 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		4591156614637F7800A68F62 /* background7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background7.jpg; sourceTree = "<group>"; };
+		4591156814637FE800A68F62 /* background8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background8.jpg; sourceTree = "<group>"; };
+		4591160714638E6400A68F62 /* chevroleticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chevroleticon.png; sourceTree = "<group>"; };
+		4591160914638E6400A68F62 /* fordicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fordicon.png; sourceTree = "<group>"; };
+		4596E42F1467C7CC0011C752 /* challenger1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = challenger1.jpg; sourceTree = "<group>"; };
+		4596E4301467C7CC0011C752 /* challenger2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = challenger2.jpg; sourceTree = "<group>"; };
+		4596E4311467C7CC0011C752 /* challenger3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = challenger3.jpg; sourceTree = "<group>"; };
+		4596E4351467C8130011C752 /* corvette3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corvette3.jpg; sourceTree = "<group>"; };
+		4596E4371467C8130011C752 /* corvette1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corvette1.jpg; sourceTree = "<group>"; };
+		4596E4381467C8130011C752 /* corvette2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corvette2.jpg; sourceTree = "<group>"; };
+		4596E4401467C8690011C752 /* camaro4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camaro4.jpg; sourceTree = "<group>"; };
+		4596E4411467C8690011C752 /* camaro3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camaro3.jpg; sourceTree = "<group>"; };
+		4596E4421467C8690011C752 /* camaro2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camaro2.jpg; sourceTree = "<group>"; };
+		4596E4431467C8690011C752 /* camaro1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camaro1.jpg; sourceTree = "<group>"; };
+		4596E44B1467C8E40011C752 /* impala1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impala1.jpg; sourceTree = "<group>"; };
+		4596E44C1467C8E40011C752 /* impala2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impala2.jpg; sourceTree = "<group>"; };
+		4596E44F1467C8F40011C752 /* hhr1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hhr1.jpg; sourceTree = "<group>"; };
+		4596E4501467C8F40011C752 /* hhr2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hhr2.jpg; sourceTree = "<group>"; };
+		4596E4581467C9B10011C752 /* malibu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = malibu1.jpg; sourceTree = "<group>"; };
+		4596E4591467C9B10011C752 /* malibu2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = malibu2.jpg; sourceTree = "<group>"; };
+		4596E45C1467C9BC0011C752 /* volt1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volt1.jpg; sourceTree = "<group>"; };
+		4596E45D1467C9BC0011C752 /* volt2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volt2.jpg; sourceTree = "<group>"; };
+		4596E4601467C9C90011C752 /* cruze1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cruze1.jpg; sourceTree = "<group>"; };
+		4596E4611467C9C90011C752 /* cruze2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cruze2.jpg; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CustomTabBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CustomTabBar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CustomTabBarAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CustomTabBarAppDelegate.m */,
+				33FFCB61145F6BB700C86B35 /* CarCell.xib */,
+				33FFCB5F145F6BB700C86B35 /* CarCell.h */,
+				33FFCB60145F6BB700C86B35 /* CarCell.m */,
+				33FFCB64145F6C7300C86B35 /* FirstView.xib */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+				45847B931460F71200BA2F43 /* SecondViewController.h */,
+				45847B941460F71200BA2F43 /* SecondViewController.m */,
+				337CE987145F720D0082CE31 /* ThirdView.xib */,
+				45847B9A1460F73000BA2F43 /* ThirdViewController.h */,
+				45847B9B1460F73000BA2F43 /* ThirdViewController.m */,
+				457129251467939600FC5101 /* quartz.h */,
+				457129261467939600FC5101 /* quartz.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CustomTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				45847BD314613A7000BA2F43 /* Images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* CustomTabBar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CustomTabBar-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45847BD314613A7000BA2F43 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4591157B1463810C00A68F62 /* CarIcon */,
+				4591155E14637ECF00A68F62 /* back.png */,
+				4591155F14637ECF00A68F62 /* next.png */,
+				4591154614637AF000A68F62 /* questionmark.png */,
+				4591154714637AF000A68F62 /* book.png */,
+				4591153A146379CD00A68F62 /* models.png */,
+				45847BD514613A8800BA2F43 /* Cars */,
+				45847BD414613A7E00BA2F43 /* Backgrounds */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		45847BD414613A7E00BA2F43 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				4591150B146376A200A68F62 /* background5.jpg */,
+				4591156614637F7800A68F62 /* background7.jpg */,
+				4591156814637FE800A68F62 /* background8.jpg */,
+				45847BC91461362200BA2F43 /* background2.jpeg */,
+				45847BCB1461362200BA2F43 /* background1.jpg */,
+				337CE984145F715B0082CE31 /* TabBack.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		45847BD514613A8800BA2F43 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				45847BD814613A9C00BA2F43 /* Dodge */,
+				45847BD714613A9400BA2F43 /* Chevrolet */,
+				45847BD614613A8D00BA2F43 /* Ford */,
+			);
+			name = Cars;
+			sourceTree = "<group>";
+		};
+		45847BD614613A8D00BA2F43 /* Ford */ = {
+			isa = PBXGroup;
+			children = (
+				45847C321461429000BA2F43 /* Fiesta */,
+				45847C251461426200BA2F43 /* Fusion */,
+				45847C241461425C00BA2F43 /* Mustang */,
+				45847C231461425600BA2F43 /* Taurus */,
+				45847C221461424D00BA2F43 /* Focus */,
+			);
+			name = Ford;
+			sourceTree = "<group>";
+		};
+		45847BD714613A9400BA2F43 /* Chevrolet */ = {
+			isa = PBXGroup;
+			children = (
+				4596E4551467C9A00011C752 /* Volt */,
+				4596E4541467C9980011C752 /* Cruze */,
+				4596E4531467C9920011C752 /* Malibu */,
+				4596E42C1467C7790011C752 /* HHR */,
+				4596E42B1467C7750011C752 /* Impala */,
+				4596E42A1467C76D0011C752 /* Camaro */,
+				4596E4291467C7660011C752 /* Corvette */,
+				45847BD914613AA300BA2F43 /* Sonic */,
+			);
+			name = Chevrolet;
+			sourceTree = "<group>";
+		};
+		45847BD814613A9C00BA2F43 /* Dodge */ = {
+			isa = PBXGroup;
+			children = (
+				4596E42D1467C7800011C752 /* Challenger */,
+			);
+			name = Dodge;
+			sourceTree = "<group>";
+		};
+		45847BD914613AA300BA2F43 /* Sonic */ = {
+			isa = PBXGroup;
+			children = (
+				45847BE414613AD000BA2F43 /* Sonic2.jpg */,
+				45847BE514613AD000BA2F43 /* Sonic3.jpg */,
+				45847BE614613AD000BA2F43 /* Sonic4.jpg */,
+				45847BE714613AD000BA2F43 /* Sonic5.jpg */,
+				45847BE914613AD000BA2F43 /* Sonic1.jpg */,
+			);
+			name = Sonic;
+			sourceTree = "<group>";
+		};
+		45847C221461424D00BA2F43 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				45847C34146142B800BA2F43 /* focus1.jpg */,
+				45847C35146142B800BA2F43 /* focus2.jpg */,
+				45847C36146142B800BA2F43 /* focus3.jpg */,
+			);
+			name = Focus;
+			sourceTree = "<group>";
+		};
+		45847C231461425600BA2F43 /* Taurus */ = {
+			isa = PBXGroup;
+			children = (
+				45847C1A1461424700BA2F43 /* taurus2.jpg */,
+				45847C1B1461424700BA2F43 /* taurus4.jpg */,
+				45847C1C1461424700BA2F43 /* taurus1.jpg */,
+				45847C1D1461424700BA2F43 /* taurus3.jpg */,
+			);
+			name = Taurus;
+			sourceTree = "<group>";
+		};
+		45847C241461425C00BA2F43 /* Mustang */ = {
+			isa = PBXGroup;
+			children = (
+				45847C2A1461427D00BA2F43 /* mustang2.jpg */,
+				45847C2B1461427D00BA2F43 /* mustang1.jpg */,
+				45847C2C1461427D00BA2F43 /* mustang3.jpg */,
+				45847C2D1461427D00BA2F43 /* mustang4.jpg */,
+			);
+			name = Mustang;
+			sourceTree = "<group>";
+		};
+		45847C251461426200BA2F43 /* Fusion */ = {
+			isa = PBXGroup;
+			children = (
+				45847C3A146142CE00BA2F43 /* fusion4.jpg */,
+				45847C3C146142CE00BA2F43 /* fusion3.jpg */,
+				45847C3D146142CE00BA2F43 /* fusion2.jpg */,
+				45847C3E146142CE00BA2F43 /* fusion1.jpg */,
+			);
+			name = Fusion;
+			sourceTree = "<group>";
+		};
+		45847C321461429000BA2F43 /* Fiesta */ = {
+			isa = PBXGroup;
+			children = (
+				45847C44146142E000BA2F43 /* fiesta1.jpg */,
+				45847C45146142E000BA2F43 /* fiesta2.jpg */,
+				45847C46146142E000BA2F43 /* fiesta3.jpg */,
+			);
+			name = Fiesta;
+			sourceTree = "<group>";
+		};
+		4591157B1463810C00A68F62 /* CarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				4591160714638E6400A68F62 /* chevroleticon.png */,
+				4522730D14639ADF0018184D /* dodgeicon.jpg */,
+				4591160914638E6400A68F62 /* fordicon.png */,
+			);
+			name = CarIcon;
+			sourceTree = "<group>";
+		};
+		4596E4291467C7660011C752 /* Corvette */ = {
+			isa = PBXGroup;
+			children = (
+				4596E4351467C8130011C752 /* corvette3.jpg */,
+				4596E4371467C8130011C752 /* corvette1.jpg */,
+				4596E4381467C8130011C752 /* corvette2.jpg */,
+			);
+			name = Corvette;
+			sourceTree = "<group>";
+		};
+		4596E42A1467C76D0011C752 /* Camaro */ = {
+			isa = PBXGroup;
+			children = (
+				4596E4401467C8690011C752 /* camaro4.jpg */,
+				4596E4411467C8690011C752 /* camaro3.jpg */,
+				4596E4421467C8690011C752 /* camaro2.jpg */,
+				4596E4431467C8690011C752 /* camaro1.jpg */,
+			);
+			name = Camaro;
+			sourceTree = "<group>";
+		};
+		4596E42B1467C7750011C752 /* Impala */ = {
+			isa = PBXGroup;
+			children = (
+				4596E44B1467C8E40011C752 /* impala1.jpg */,
+				4596E44C1467C8E40011C752 /* impala2.jpg */,
+			);
+			name = Impala;
+			sourceTree = "<group>";
+		};
+		4596E42C1467C7790011C752 /* HHR */ = {
+			isa = PBXGroup;
+			children = (
+				4596E44F1467C8F40011C752 /* hhr1.jpg */,
+				4596E4501467C8F40011C752 /* hhr2.jpg */,
+			);
+			name = HHR;
+			sourceTree = "<group>";
+		};
+		4596E42D1467C7800011C752 /* Challenger */ = {
+			isa = PBXGroup;
+			children = (
+				4596E42F1467C7CC0011C752 /* challenger1.jpg */,
+				4596E4301467C7CC0011C752 /* challenger2.jpg */,
+				4596E4311467C7CC0011C752 /* challenger3.jpg */,
+			);
+			name = Challenger;
+			sourceTree = "<group>";
+		};
+		4596E4531467C9920011C752 /* Malibu */ = {
+			isa = PBXGroup;
+			children = (
+				4596E4581467C9B10011C752 /* malibu1.jpg */,
+				4596E4591467C9B10011C752 /* malibu2.jpg */,
+			);
+			name = Malibu;
+			sourceTree = "<group>";
+		};
+		4596E4541467C9980011C752 /* Cruze */ = {
+			isa = PBXGroup;
+			children = (
+				4596E4601467C9C90011C752 /* cruze1.jpg */,
+				4596E4611467C9C90011C752 /* cruze2.jpg */,
+			);
+			name = Cruze;
+			sourceTree = "<group>";
+		};
+		4596E4551467C9A00011C752 /* Volt */ = {
+			isa = PBXGroup;
+			children = (
+				4596E45C1467C9BC0011C752 /* volt1.jpg */,
+				4596E45D1467C9BC0011C752 /* volt2.jpg */,
+			);
+			name = Volt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CustomTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CustomTabBar" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTabBar;
+			productName = CustomTabBar;
+			productReference = 1D6058910D05DD3D006BFB54 /* CustomTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CustomTabBar" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTabBar */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CustomTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				33FFCB63145F6BB700C86B35 /* CarCell.xib in Resources */,
+				33FFCB65145F6C7300C86B35 /* FirstView.xib in Resources */,
+				337CE985145F715B0082CE31 /* TabBack.png in Resources */,
+				337CE988145F720D0082CE31 /* ThirdView.xib in Resources */,
+				45847BCD1461362200BA2F43 /* background2.jpeg in Resources */,
+				45847BCF1461362200BA2F43 /* background1.jpg in Resources */,
+				45847BEA14613AD000BA2F43 /* Sonic2.jpg in Resources */,
+				45847BEB14613AD000BA2F43 /* Sonic3.jpg in Resources */,
+				45847BEC14613AD000BA2F43 /* Sonic4.jpg in Resources */,
+				45847BED14613AD000BA2F43 /* Sonic5.jpg in Resources */,
+				45847BEF14613AD000BA2F43 /* Sonic1.jpg in Resources */,
+				45847C1E1461424700BA2F43 /* taurus2.jpg in Resources */,
+				45847C1F1461424700BA2F43 /* taurus4.jpg in Resources */,
+				45847C201461424700BA2F43 /* taurus1.jpg in Resources */,
+				45847C211461424700BA2F43 /* taurus3.jpg in Resources */,
+				45847C2E1461427D00BA2F43 /* mustang2.jpg in Resources */,
+				45847C2F1461427D00BA2F43 /* mustang1.jpg in Resources */,
+				45847C301461427D00BA2F43 /* mustang3.jpg in Resources */,
+				45847C311461427D00BA2F43 /* mustang4.jpg in Resources */,
+				45847C37146142B800BA2F43 /* focus1.jpg in Resources */,
+				45847C38146142B800BA2F43 /* focus2.jpg in Resources */,
+				45847C39146142B800BA2F43 /* focus3.jpg in Resources */,
+				45847C3F146142CE00BA2F43 /* fusion4.jpg in Resources */,
+				45847C41146142CE00BA2F43 /* fusion3.jpg in Resources */,
+				45847C42146142CE00BA2F43 /* fusion2.jpg in Resources */,
+				45847C43146142CE00BA2F43 /* fusion1.jpg in Resources */,
+				45847C48146142E000BA2F43 /* fiesta1.jpg in Resources */,
+				45847C49146142E000BA2F43 /* fiesta2.jpg in Resources */,
+				45847C4A146142E000BA2F43 /* fiesta3.jpg in Resources */,
+				4591150C146376A200A68F62 /* background5.jpg in Resources */,
+				4591153B146379CD00A68F62 /* models.png in Resources */,
+				4591154814637AF000A68F62 /* questionmark.png in Resources */,
+				4591154914637AF000A68F62 /* book.png in Resources */,
+				4591156014637ECF00A68F62 /* back.png in Resources */,
+				4591156114637ECF00A68F62 /* next.png in Resources */,
+				4591156714637F7800A68F62 /* background7.jpg in Resources */,
+				4591156914637FE800A68F62 /* background8.jpg in Resources */,
+				4591160A14638E6400A68F62 /* chevroleticon.png in Resources */,
+				4591160C14638E6400A68F62 /* fordicon.png in Resources */,
+				4522730E14639ADF0018184D /* dodgeicon.jpg in Resources */,
+				4596E4321467C7CC0011C752 /* challenger1.jpg in Resources */,
+				4596E4331467C7CC0011C752 /* challenger2.jpg in Resources */,
+				4596E4341467C7CC0011C752 /* challenger3.jpg in Resources */,
+				4596E4391467C8130011C752 /* corvette3.jpg in Resources */,
+				4596E43B1467C8130011C752 /* corvette1.jpg in Resources */,
+				4596E43C1467C8130011C752 /* corvette2.jpg in Resources */,
+				4596E4471467C8690011C752 /* camaro4.jpg in Resources */,
+				4596E4481467C8690011C752 /* camaro3.jpg in Resources */,
+				4596E4491467C8690011C752 /* camaro2.jpg in Resources */,
+				4596E44A1467C8690011C752 /* camaro1.jpg in Resources */,
+				4596E44D1467C8E40011C752 /* impala1.jpg in Resources */,
+				4596E44E1467C8E40011C752 /* impala2.jpg in Resources */,
+				4596E4511467C8F40011C752 /* hhr1.jpg in Resources */,
+				4596E4521467C8F40011C752 /* hhr2.jpg in Resources */,
+				4596E45A1467C9B10011C752 /* malibu1.jpg in Resources */,
+				4596E45B1467C9B10011C752 /* malibu2.jpg in Resources */,
+				4596E45E1467C9BC0011C752 /* volt1.jpg in Resources */,
+				4596E45F1467C9BC0011C752 /* volt2.jpg in Resources */,
+				4596E4621467C9C90011C752 /* cruze1.jpg in Resources */,
+				4596E4631467C9C90011C752 /* cruze2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CustomTabBarAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				33FFCB62145F6BB700C86B35 /* CarCell.m in Sources */,
+				45847B961460F71200BA2F43 /* SecondViewController.m in Sources */,
+				45847B9D1460F73000BA2F43 /* ThirdViewController.m in Sources */,
+				457129271467939600FC5101 /* quartz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomTabBar_Prefix.pch;
+				INFOPLIST_FILE = "CustomTabBar-Info.plist";
+				PRODUCT_NAME = CustomTabBar;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomTabBar_Prefix.pch;
+				INFOPLIST_FILE = "CustomTabBar-Info.plist";
+				PRODUCT_NAME = CustomTabBar;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
